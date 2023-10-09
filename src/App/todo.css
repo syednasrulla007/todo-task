@@ -1,0 +1,94 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 10%;
+    /* background-color: bisque; */
+    
+  }
+  
+  .input-container {
+    display: flex;
+  }
+  
+  input[type='text'] {
+    flex-grow: 1;
+  }
+  
+  button {
+    margin-left: 10px;
+  }
+  
+  .todo-card {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 3px solid;
+    background-color:aliceblue;
+    /* color:white; */
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    
+  
+  }
+  .todo-card:hover{
+    background-color: red;
+    border-radius: 10px;
+    color: aliceblue;
+  }
+  
+  .todo-card.completed {
+    text-decoration: line-through;
+    color: blueviolet;
+    background-color: chartreuse;
+    border: 3px solid green;
+  }
+  
+  .reset-button {
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 20px;
+    height: 40PX;
+    width: 80PX;
+  }
+  .add{
+background-color: green;
+color: aliceblue;
+border-radius: 10px;
+width: 60px;
+height: 40px;
+  }
+  .act{
+    color:rgb(102, 23, 240);
+   } 
+   .com{
+    color: darkgreen;
+  
+   }
+   .add:hover{
+   background-color: chartreuse;
+   color: black;
+   }
+   .to{
+    font-size: 70px;
+   }
+   @media  (min-width:360px) and (max-width:600px ){
+    
+    .to{
+        margin-top:150px ;
+    }
+    .reset-button {
+        position: absolute;
+        top: 70px;
+        right: 70px;
+        background-color: red;
+        color: aliceblue;
+        border-radius: 15px;
+        height: 40PX;
+        width: 80PX;
+      }
+
+   }
